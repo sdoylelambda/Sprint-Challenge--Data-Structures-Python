@@ -44,4 +44,8 @@ class LinkedList:
 
   def reverse_list(self):
     # TO BE COMPLETED
-    pass
+    if len(self.value) == 0:
+      return self.value
+    else:
+      print(self.value)
+      return reverse_list(self.value)
