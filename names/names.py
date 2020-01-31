@@ -30,12 +30,21 @@ duplicates = []
 
 # my code
 
-def Diff(li1, li2):
+# def Diff(li1, li2):
     # .join()
-    duplicates.append([i for i in li1 + li2 if i not in li1 or i not in li2])
-    return duplicates
 
-Diff(names_1, names_2)
+x = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
+print('x',x)
+s = ", "
+y = s.join(x)
+print('y', y)
+duplicates.append(x)
+
+
+
+    # return duplicates
+
+# Diff(names_1, names_2)
 
 
 
