@@ -1,6 +1,10 @@
 # Sprint Challenge: Data Structures
 
-In this week's Sprint you implemented some classic and fundamental data structures and learned about how to go about evaluating their respective runtimes and performance. This Sprint Challenge aims to assess your comfort with these topics through exercises that build on the data structures you implemented and the algorithmic intuition you've started to build up.
+In this week's Sprint you implemented some classic and fundamental data structures and 
+learned about how to go about evaluating their respective runtimes and performance. 
+This Sprint Challenge aims to assess your comfort with these topics through exercises 
+that build on the data structures you implemented and the algorithmic intuition you've 
+started to build up.
 
 ## Instructions
 
@@ -75,7 +79,10 @@ Six seconds is an eternity so you've been tasked with speeding up the code. Can 
 
 #### Task 3. Reverse a Linked List
 
-Inside of the `reverse` directory, you'll find a basic implementation of a Singly Linked List. _Without_ making it a Doubly Linked List (adding a tail attribute), complete the `reverse_list()` function within `reverse/reverse.py` reverse the contents of the list. 
+Inside of the `reverse` directory, you'll find a basic implementation of a 
+Singly Linked List. _Without_ making it a Doubly Linked List (adding a tail attribute), 
+complete the `reverse_list()` function within `reverse/reverse.py` reverse the contents 
+of the list. 
 
 For example,
 ```
