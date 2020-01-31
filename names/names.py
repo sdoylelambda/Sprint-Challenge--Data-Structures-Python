@@ -13,11 +13,9 @@ f.close()
 
 
 duplicates = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
-s = ", "
-y = s.join(duplicates)
-r = str(y)
-print('y', y)
-duplicates.append(y)
+space = ", "
+join = space.join(duplicates)
+duplicates.append(join)
 
 
 
