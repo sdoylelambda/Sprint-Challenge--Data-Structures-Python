@@ -4,6 +4,7 @@ start_time = time.time()
 
 f = open('names_1.txt', 'r')
 names_1 = f.read().split("\n")  # List containing 10000 names
+print('names_1', names_1)
 f.close()
 
 f = open('names_2.txt', 'r')
@@ -37,8 +38,9 @@ x = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
 print('x',x)
 s = ", "
 y = s.join(x)
+r = str(y)
 print('y', y)
-duplicates.append(x)
+duplicates.append(y)
 
 
 
