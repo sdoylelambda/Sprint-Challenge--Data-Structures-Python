@@ -34,10 +34,20 @@ duplicates = []
 # def Diff(li1, li2):
     # .join()
 
-x = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
-print('x',x)
+# x = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
+# print('x',x)
+# s = ", "
+# y = s.join(x)
+# r = str(y)
+# print('y', y)
+# duplicates.append(y)
+
+duplicates = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
+
+# x = [i for i in names_1 + names_2 if i not in names_1 or i not in names_2]
+# print('x',x)
 s = ", "
-y = s.join(x)
+y = s.join(duplicates)
 r = str(y)
 print('y', y)
 duplicates.append(y)
